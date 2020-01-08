@@ -1,0 +1,20 @@
+{
+    "name": "yunwuxin/think-throttle",
+    "description": "Throttle is a rate limiter for thinkphp6",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "yunwuxin\\throttle\\": "src/"
+        }
+    },
+    "require": {
+        "topthink/framework": "^6.0",
+        "nesbot/carbon": "^2.28"
+    }
+}
